@@ -20,3 +20,12 @@ Build ZipKin-Server
     server.port=20000
     spring.application.name=zipkin-server
     
+3. add annotation 
+
+
+    @EnableZipkinServer
+    
+4. access 
+
+    
+    http:localhost:2000
